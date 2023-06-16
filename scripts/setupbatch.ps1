@@ -1,0 +1,1 @@
+Out-File titleutil.bat -InputObject ("call `"$pwd\venv\Scripts\activate.bat`"`ncall `"$pwd\venv\Scripts\python.exe`" `"$pwd\p_titleutil.py`" %1 %2 %3 %4 %5 %6`ncall `"$pwd\venv\Scripts\deactivate.bat`"`n@echo off") -Force -Encoding ASCII
